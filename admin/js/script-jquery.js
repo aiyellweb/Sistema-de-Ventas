@@ -92,9 +92,9 @@ function ECategoria(IdTabla,Accion){
 		data:{IdTabla:IdTabla,Accion:Accion},
 		success:function(response){
 			if(response.respuesta==true){
-				window.location='categoria.php';
+				window.location.href='categoria.php';
 			}else{
-				window.location='categoria.php';
+				window.location.href='categoria.php';
 			}
 		},error:function(){
 			alert("ERROR GENERAL EN LA APLICACIÓN");
@@ -169,9 +169,9 @@ function EProveedor(IdTabla,Accion){
 		data:{IdTabla:IdTabla,Accion:Accion},
 		success:function(response){
 			if(response.respuesta==true){
-				window.location='proveedores';
+				window.location.href='proveedores.php';
 			}else{
-				window.location='proveedores';
+				window.location.href='proveedores.php';
 			}
 		},error:function(){
 			alert("ERROR GENERAL EN LA APLICACIÓN");
@@ -390,9 +390,9 @@ function EUsuario(IdTabla,Accion){
 		data:{IdTabla:IdTabla,Accion:Accion},
 		success:function(response){
 			if(response.respuesta==true){
-				window.location='usuarios';
+				window.location.href='usuarios.php';
 			}else{
-				window.location='usuarios';
+				window.location.href='usuarios.php';
 			}
 		},error:function(){
 			alert("ERROR GENERAL EN LA APLICACIÓN");
